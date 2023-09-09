@@ -1,0 +1,57 @@
+h2 {
+  text-align: center;
+  color: black;
+}
+.register {
+  color: white;
+  width: 350px;
+  padding: 20px;
+  position: absolute;
+  font-size: 20px;
+  top: 18%;
+  left: 35%;
+  line-height: 50px;
+  border-radius: 5px;
+  border-color: white;
+  border: 1px solid;
+  background: transparent;
+  text-align: left;
+  vertical-align: middle;
+}
+input {
+  height: 4%;
+  width: 90%;
+  padding: 10px;
+  border-radius: 3px;
+}
+input:focus {
+  outline: none;
+  color: white;
+  /*   background-color is steelblue */
+  background-color: rgba(70, 131, 180, 0.35);
+}
+
+button {
+  /* margin-top: 10px; */
+  width: 90px;
+  height: 40px;
+  padding: 5px;
+  float: inline-start;
+  vertical-align: middle;
+  margin: 20px;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 10px;
+  background-color: rgb(67, 185, 67);
+  color: white;
+}
+
+#myVideo {
+  position: fixed;
+  width: auto;
+  height: auto;
+}
+#numtxt::-webkit-outer-spin-button,
+#numtxt::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
